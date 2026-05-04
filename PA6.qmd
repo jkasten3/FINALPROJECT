@@ -1,7 +1,8 @@
 ---
 title: "PA6 - QUARTO"
+author: "Jack, Giada, Jacob, Nidhi"
 format: html
-  embedded-resources: TRUE
+embedded-resources: TRUE
 editor: visual
 ---
 
