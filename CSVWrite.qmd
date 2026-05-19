@@ -1,0 +1,28 @@
+---
+title: "Data gathering"
+format: html
+---
+
+
+```{r}
+library(devtools)
+library(hockeyR)
+library(tidyverse)
+
+```
+
+```{r}
+pdp <- load_pbp('2018-19')
+head(pdp, n= 10)
+```
+
+```{r}
+write_csv(pdp, "PBP2018-2019.csv")
+```
+
+
+```{r}
+TEST <- read.csv("/Users/jacobkasten/Desktop/STAT331_Jacob_Kasten/PBP2018-2019.csv")
+head(TEST, n= 4)
+```
+
